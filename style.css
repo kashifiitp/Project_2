@@ -1,0 +1,1459 @@
+*{
+   margin: 0;
+    padding: 0;
+   
+    
+    
+    font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+   
+}
+
+
+
+ 
+
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+   
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+ html, body {
+    overflow-x: hidden; /* Horizontal scroll khatam karne ke liye */
+    width: 100%;
+    scroll-behavior: smooth;
+}
+/* 1st Nav */
+
+.nav1{
+    width: 100%;
+    height: 3rem;
+    background-color: #063768;
+    display: flex;
+    justify-content:flex-end;
+    padding: 0rem 0.5rem 1.5rem 0rem;
+    text-align: center;
+    
+
+
+}
+.sidecontent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.sidecontent h6{
+    margin: 1rem 1rem 0rem 0rem;
+    color: #ffffff;
+    font-size: smaller;
+    font-weight: 450;
+    
+}
+.sidecontent button{
+   border-radius: 0.56rem;
+   width: 3.4rem;
+   border: none;
+   text-size-adjust: 0.3rem;
+   color:  #142C52;
+   padding: 0.3rem;
+   margin: 1.2rem 1rem 0rem 0rem;
+   font-size: 0.69rem;
+   font-weight: bold;
+   
+  
+}
+.sidecontent h6:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    padding: 12px;
+    z-index: 1;
+    border-radius: 8px;
+    top: 100%; 
+    right: 0;
+}
+
+/* Jab mouse 'Contact Us' par jaye, tab box dikhe */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* 1ST NAV CSS COMPLETE ADD SOME BOOTSTRAP AND START SECOND NAV CSS */
+.nav2{
+    width: 100%;
+    height: 5rem;
+    background-color: #ffffff;
+    border: 2px solid rgb(255, 251, 251);
+}
+.btn i{
+    font-size: 1.5rem;
+     border-radius: 0.2rem;
+}
+.menu :hover{
+    color: #ffffff;
+    background-color: rgb(225, 160, 18);
+    
+    
+}
+
+
+.my-hamburger {
+    display: none !important;
+}
+
+
+
+
+/* RESPONSIVENESS AND MENU STYLEING  */
+@media (max-width: 800px) {
+    .my-hamburger {
+        display: flex !important;
+        position: relative;
+        top: 1rem;
+    }
+}
+
+.cutomer{
+    margin-left: 1rem;
+    border-bottom: 0.0001rem solid rgb(231, 226, 226);
+}
+
+.list-unstyled h5{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    color: #6784b3b4;
+}
+.pro{
+     border-bottom: 0.0001rem solid rgb(231, 226, 226);
+}
+.pro h6{
+    font-size: 0.8rem;
+    color: #506B95;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.k1{
+    margin-bottom: 1rem;
+}
+.py-2{
+    font-size: 0.9rem;
+    margin-left: 1rem;
+    font-weight: 500;
+    color: #21242C;
+}
+
+.orangebutton1 button{
+    background-color: #ffffff;
+    color: #0f0f0f;
+    font-size:1rem;
+    width: 13rem;
+    height: 2.9rem;
+    border-radius: 1rem;
+    border: none;
+}
+.orangebutton1 button:hover{
+    background-color: #ff9c39;
+    color: #ffffff;
+    font-size:1rem;
+    width: 13rem;
+    height: 2.9rem;
+    border-radius: 1rem;
+    border: none;
+}
+.orangebutton button{
+    background-color: #ff9c39;
+    color: #ffffff;
+    font-size:1rem;
+    width: 13rem;
+    height: 2.9rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+/* COMPLETE NAV2  AND START NAV 2 CONTENT STYLING */
+
+
+.nav3{
+    display: flex;
+    justify-content:space-between;
+    font-size: 0.5rem;
+    margin-top: 0.8rem;
+    margin-right: 0.7rem;
+}
+.navcon1 img{
+    padding-left: 0.9rem;
+    
+}
+
+
+.navcon2{
+    display: flex ;
+    justify-content: space-evenly ;
+    margin-right: 6rem;
+    
+    
+    
+}
+.navka h6{
+    
+    margin-top: 0.69rem;
+    font-size: 0.8rem;
+    color: #506B95;
+   position: relative;
+   top: 0.4rem;
+   left: 4rem;
+     
+}
+
+.div-goal  h5{
+    font-size: 0.8rem;
+    color: #506B95;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+     position: relative;
+   top: 0.4rem;
+   left: 2rem;
+   
+}
+
+.clims{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 2rem;
+    position: relative;
+     top: 0.4rem;
+     left: 2rem;
+     color:#14a249;
+}
+.clims h6{
+     margin-right: 2rem;
+     position: relative;
+     top: 0.4rem;
+     
+     
+}
+
+
+
+.navcon3 button{
+    background-color: #ff8000;
+    color: #ffffff;
+    font-size:0.8rem;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 0.7rem;
+    margin-top: 0.4rem;
+    margin-right: 1rem;
+    border: none;
+}
+
+
+@media (max-width: 800px) {
+ 
+
+   
+    .navcon2 h5 {
+        display: none ;
+    }
+    .navcon3{
+        display: none;
+
+    }
+    .dropdown h5{
+        display: none;
+    }
+    .navka h6{
+   display: none;
+    } 
+   .clims{
+    display: none;
+    }
+    
+    .navcon1 img {
+        width: 150px; 
+        position: relative;
+        left: 9px; 
+        margin-top: 0.2rem;
+        bottom: 3rem;
+    }
+
+ 
+   
+}
+
+
+
+ 
+
+
+
+/* now comple styling of combine css  */
+
+/* new maincon start */
+
+/* maincon1 start  */
+.maincon1{
+    width: 100%;
+    height:400px;
+    background-color:#063768 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     padding-top: 4rem;
+     color: #ffffff;
+    
+}
+.nav-marquee {
+    display: none; 
+    background-color: #f9fdf9; 
+    color: #28a745; 
+    padding: 1.4rem 0rem;
+    font-size: 14px;
+    font-weight: 500;
+    overflow: hidden;
+    white-space: nowrap;
+    border-bottom: 1px solid #d4edda;
+}
+
+/* responsiveness runing line */
+
+@media (max-width: 800px) {
+    .nav-marquee {
+        display: block; 
+        position: relative;
+        bottom: 3.99rem;
+        width: 100%;
+        
+    }
+
+    .marquee-content {
+        display: inline-block;
+        padding-left: 100%;
+        font-size: 1rem;
+        position: relative;
+        bottom: 1rem;
+        animation: marquee-animation 15s linear infinite;
+    }
+}
+
+
+@keyframes marquee-animation {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+/* styling maincon1 */
+.conk1 h1{
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 900;
+   
+}
+.conk2 p{
+    height: 2%;
+    color: #fefefec1;
+    font-weight: 400;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    margin-left: 3rem;
+    
+
+   
+}
+.conk2 h6{
+    padding:0.3rem;
+    height: 2%;
+    font-weight: 400;
+    color: #fefefec1;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+   
+     
+}
+.conk2 h5{
+    height: 2%;
+    color: #fefefec1;
+    font-weight: 400;
+    padding: 0.8rem;
+    font-size: 1.5rem;
+    margin-left: 9rem;
+
+}
+
+.conk3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 4rem;
+}
+
+.conk3 button{
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0.4rem ;
+    border: none;
+    position: relative;
+    right: 4rem;
+    bottom: 5rem;
+}
+.conk5 button {
+     width: 8rem;
+    height: 3rem;
+    border-radius: 0.4rem ;
+    border: none;
+    position: relative;
+    right: 4rem;
+    bottom: 5rem;
+}
+.conk5 button:hover{
+    color: #f9fdf9;
+    background-color: #0d4176
+}
+
+.conk4 button{
+    margin-left: 1rem;
+    width: 13rem;
+    height: 3rem;
+    padding: 0.2rem;
+
+
+    
+}
+.conk4 p{
+    color: #ffffff;
+    padding: 0.4rem;
+     
+}
+.conk4 p:hover{
+   color: #002e5b;
+}
+/* finish */
+
+/* responsiveness maincon1 */
+@media (max-width: 800px) {
+   .maincon1{
+    width: 100%;
+    height:500px;
+    background-color:#345b9b ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     padding-top: 4rem;
+     color: #ffffff;
+    
+}
+
+
+    .conk1, .conk2, .conk3 {
+             text-align: center; 
+             position: relative;
+                bottom: 3rem;
+       }
+
+      .conk1 h1 {
+        font-size: 2rem; 
+        color: white;
+       margin-bottom: 25px;
+    }
+
+
+
+
+      .conk2 p, .conk2 h6 {
+
+          font-size: 1rem;
+         color: rgba(255, 255, 255, 0.9); 
+         line-height: 1;
+         margin-bottom: 1rem;
+         position: relative;
+         bottom: 1rem;
+          
+
+
+        }
+
+        .conk2 h5{
+
+           font-size: 1rem;
+          color: rgba(255, 255, 255, 0.9); 
+            line-height: 1;
+            position: relative;
+             right: 3.5rem;
+              bottom: 1.5rem;
+       }
+
+
+           .conk3 {
+            display: flex;
+          flex-direction: column; 
+          align-items: center;
+          gap: 15px; 
+         margin-top: 35px;
+            }
+
+
+      .conk3 button {
+           width:28rem;
+           max-width: 450px;
+           height: 50px;
+           border-radius: 10px;
+           border: none;
+           font-weight: bold;
+           font-size: 1.1rem;
+           margin-bottom: 0.4rem;
+           margin-left: 4rem;
+           }
+
+
+
+
+         .conk5 button {
+
+            background-color: white;
+           color: #0056b3; 
+
+                }
+
+
+   .conk4 button {
+
+         width:28rem;
+         max-width: 450px;
+         height: 50px;
+         border-radius: 10px;
+         border: none;
+         font-weight: bold;
+         font-size: 1.1rem;
+       }
+
+
+        .conk4 button p {
+
+             margin: 0;
+              }
+
+}
+/* finish */
+
+/* responisveness for mobile */
+@media (max-width: 450px) {
+    
+ 
+    .conk1, .conk2, .conk3 {
+             text-align: center; 
+             position: relative;
+                
+    }
+         .conk1 h1 {
+        font-size: 1.5rem; 
+        color: white;
+       margin-bottom: 25px;
+    }
+
+
+
+
+      .conk2 p, .conk2 h6 {
+
+          font-size: 0.8rem;
+         color: rgba(255, 255, 255, 0.9); 
+         line-height: 1.2;
+         margin-bottom: 0.6rem;
+         position: relative;
+         
+          
+
+
+        }
+
+        .conk2 h5{
+
+           font-size: 0.8rem;
+          color: rgba(255, 255, 255, 0.9); 
+            line-height: 1;
+            position: relative;
+             right: 3.5rem;
+             top: 0.1rem;
+              bottom: 0.5rem;
+       }
+
+
+
+   
+    .conk3 button {
+         width:16rem;
+         max-width: 450px;
+         height: 50px;
+         border-radius: 10px;
+         border: none;
+         font-weight: bold;
+         font-size: 0.6rem;
+         
+         
+         
+         
+    }
+
+   
+    .conk5 button {
+         width:12rem;
+         max-width: 450px;
+         height: 40px;
+         border-radius: 10px;
+         border: none;
+         font-weight: bold;
+         font-size: 0.6rem;
+          position: relative;
+         bottom: 7rem;
+        
+    }
+
+    
+    .conk4 button {
+         width:12rem;
+         max-width: 450px;
+         height: 40px;
+         border-radius: 10px;
+         border: none;
+         font-weight: bold;
+         font-size: 0.8rem;
+         position: relative;
+         bottom: 7rem;
+        
+    }
+
+    
+}
+/* finsh maincon1 */
+/*
+    maincon2 start */
+
+.maincon2{ 
+    width: 100%;
+    height:1000px;
+    background-color:#f0f7ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     padding-top: 4rem;
+     color: #ffffff;
+     padding-bottom: 6rem;
+}
+
+.mainkon1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainkon1 h1{
+    color: #0f0f0f;
+}
+.mainkon1 p{
+     color: #506B95;
+}
+
+.custom-btn-find, .custom-btn-talk {
+    transition: all 0.3s ease-in-out !important; 
+}
+
+
+.custom-btn-find:hover, .custom-btn-talk:hover {
+    transform: scale(1.1) !important; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) !important; 
+    z-index: 10; 
+}
+
+
+.custom-btn-find:active, .custom-btn-talk:active {
+    transform: scale(0.95); 
+}
+
+/* card styling */
+/* 1. Card ka Main Design */
+.mainkon2 .card {
+    background: #ffffff !important;
+    border: 1px solid rgba(0,0,0,0.05) !important; /* Halka sa border jo shadow ko support kare */
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) !important; /* Smooth animation */
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+/* 2. High Shadow Effect */
+.mainkon2 .card.shadow-sm {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08) !important; /* Soft deep shadow */
+}
+
+/* 3. Hover Effect - Card bahar nikal kar aayega */
+.mainkon2 .card:hover {
+    transform: translateY(-12px) scale(1.02) !important; /* Upar uthega aur thoda bada hoga */
+    box-shadow: 0 20px 45px rgba(52, 91, 155, 0.15) !important; /* Blueish deep shadow */
+    border: 1px solid rgba(52, 91, 155, 0.2) !important;
+}
+
+/* 4. Icon (Emoji) Animation */
+.mainkon2 .fs-1 {
+    transition: transform 0.3s ease;
+    display: inline-block;
+}
+.mainkon2 .card:hover .fs-1 {
+    transform: scale(1.2) rotate(5deg); /* Emoji thoda zoom aur rotate hoga */
+}
+
+/* 5. Title aur Text Styling */
+.mainkon2 .fw-bold {
+    color: #345b9b; /* Theme color */
+    margin-top: 10px;
+}
+
+.mainkon2 .text-primary {
+    background: #f0f7ff; /* Price ke piche halka blue background */
+    padding: 8px 15px;
+    border-radius: 50px;
+    display: inline-block;
+    font-size: 0.9rem;
+}
+
+/* 6. Mobile Fix (400px) */
+@media (max-width: 400px) {
+    .mainkon2 .card {
+        margin: 10px 5px; /* Side margins taaki mobile par chipke na */
+    }
+    .mainkon2 .fs-1 {
+        font-size: 2.5rem !important;
+    }
+}
+/* maincon 2 finsh */
+/* maincontent 3 start  */
+.maincontent3{
+    width: 100%;
+    height: 800px;
+    margin-top: 3rem;
+     background-color: #f8f9fa;
+     padding: 1rem;
+}
+.maincontebt3_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+.maincontebt3_1 h1{
+    color: #0f0f0f;
+}
+.maincontebt3_1 p{
+    color: #506B95;
+}
+
+
+/* Container styling */
+.maincontebt3_2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: #f8f9fa; /* Light background */
+    flex-wrap: wrap;
+}
+
+/* Individual Card Styling */
+.info-card {
+    background: white;
+    border-radius: 12px;
+    padding: 30px 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Icon Styling */
+.icon-box {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.blue-icon { color: #0056b3; }
+.green-icon { color: #28a745; }
+
+/* Text Styling */
+.info-card h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.info-card p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+
+/* mainconten 3 finsh */
+/* maincontent 4 start */
+.maincontent4{
+    width: 100%;
+    height: 800px;
+    padding: 1rem;
+    
+}
+
+.minconte4-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.minconte4-1 h3{
+    color: #0f0f0f;
+}
+.minconte4-1 p{
+    color: #506B95;
+}
+
+.minconte4-2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px 20px;
+}
+
+.insurance-tabs {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Hide Radio Inputs */
+input[type="radio"] { display: none; }
+
+/* Tab Navigation Style */
+.tab-labels {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.tab-labels label {
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #555;
+  font-weight: 500;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+/* Selected Tab Style */
+#tab1:checked ~ .tab-labels label[for="tab1"],
+#tab2:checked ~ .tab-labels label[for="tab2"],
+#tab3:checked ~ .tab-labels label[for="tab3"],
+#tab4:checked ~ .tab-labels label[for="tab4"],
+#tab5:checked ~ .tab-labels label[for="tab5"] {
+  background-color: #004a99;
+  color: white;
+}
+
+/* Content Visibility Logic */
+.content { display: none; }
+
+#tab1:checked ~ .tab-content-container .card-1,
+#tab2:checked ~ .tab-content-container .card-2,
+#tab3:checked ~ .tab-content-container .card-3,
+#tab4:checked ~ .tab-content-container .card-4,
+#tab5:checked ~ .tab-content-container .card-5 {
+  display: block;
+  animation: fadeIn 0.4s ease;
+}
+
+/* Card Styling */
+.tab-content-container {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  max-width: 500px; 
+  margin: 0 auto;
+}
+
+.content h3 { font-size: 28px; margin-bottom: 5px; color: #333; }
+.subtitle { color: #666; margin-bottom: 25px; }
+
+.price {
+  font-size: 36px;
+  font-weight: bold;
+  color: #004a99;
+  margin-bottom: 30px;
+}
+
+.price span {
+  display: block;
+  font-size: 14px;
+  color: #888;
+  font-weight: normal;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  max-width: 300px;
+  margin: 0 auto 30px;
+}
+
+.features li::before {
+  content: '✓';
+  color: #28a745;
+  margin-right: 10px;
+  font-weight: bold;
+
+}
+
+.features li {
+  margin-bottom: 10px;
+  color: #444;
+  text-align: left;
+}
+
+.cta-btn {
+  background-color: #004a99;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 400px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+/* finsh main content 4 */
+
+/* responsive ness */
+
+@media screen and (max-width: 800px) {
+  /* Main Container height auto karein taaki content cut na ho */
+  .maincontent4 {
+    height: auto;
+     position: relative;
+      top: 12rem;
+      padding-bottom: 4rem;
+    
+  }
+
+  /* Labels (Buttons) ko do lines mein ya scrollable banane ke liye flex-wrap use karein */
+  .tab-labels {
+    flex-wrap: wrap; /* Buttons niche wali line mein aa jayenge */
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  .tab-labels label {
+    padding: 8px 12px;
+    font-size: 13px; /* Font size chota kiya */
+    flex: 1 1 40%; /* Ek line mein lagbhag 2 buttons aayenge */
+    text-align: center;
+  }
+
+  /* Card content ko chota karein */
+  .tab-content-container {
+      position: relative;
+      top: 3rem;
+
+  }
+  .minconte4-1{
+    position: relative;
+      top: 20rem;
+  }
+  .minconte4-2{
+     position: relative;
+      top: 18rem;
+  }
+
+  .content h3 {
+    font-size:0.2rem; /* Heading choti ki */
+     
+  }
+
+  .price {
+    font-size: 28px; /* Price text chota kiya */
+    margin-bottom: 15px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .features {
+    max-width: 100%; /* Features poori width le sakein */
+    font-size: 14px;
+  }
+
+  .cta-btn {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+}
+
+/* 480px se kam (Mobile) ke liye extra adjustment */
+@media screen and (max-width: 480px) {
+  .tab-labels label {
+    flex: 1 1 100%; /* Mobile par har button poori line lega */
+  }
+  
+  .price {
+    font-size: 24px;
+  }
+}
+
+/* main content 4 finsh  */
+
+/* Mainconten 5 start */
+.maincontent5{
+     width: 100%;
+    height: 600px;
+    margin-top: 3rem;
+     background-color: #f8f9fa;
+     padding: 1rem;
+}
+.mainconten5-1{
+    text-align: center;
+    color: #0f0f0f;
+}
+
+/* Container Layout */
+.mainconten5-2 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: #f8f9fa;
+    flex-wrap: wrap;
+}
+
+/* Common Card Style */
+.insurance-card {
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    flex: 1;
+    min-width: 320px;
+    max-width: 480px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    border: 1px solid #eef0f2;
+    position: relative;
+}
+
+/* Left Border Colors */
+.expect-section {
+    border-left: 6px solid #28a745;
+}
+
+.never-section {
+    border-left: 6px solid #dc3545;
+}
+
+/* Header & Title Styling */
+.card-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.card-title h2 {
+    margin: 0;
+    font-size: 1.4rem;
+    font-family: sans-serif;
+}
+
+.expect-section h2 { color: #1e7e34; }
+.never-section h2 { color: #c82333; }
+
+/* Icon Styling (The Circle) */
+.status-icon {
+    width: 28px;
+    height: 28px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 12px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.icon-green { border-color: #28a745; color: #28a745; }
+.icon-red { border-color: #dc3545; color: #dc3545; }
+
+/* Points List Styling */
+.points-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.points-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    color: #444;
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
+
+/* Custom Bullet Points */
+.points-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #999;
+    font-size: 1.2rem;
+    line-height: 1;
+}
+
+/* responsivness */
+/* Media Query for Mobile Devices (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    
+    .maincontent5 {
+        height: auto; /* Fixed height hata di taaki content niche tak scroll ho sake */
+        padding: 2rem 10px;
+        position: relative;
+        top: 24rem;
+    }
+
+    .mainconten5-2 {
+        flex-direction: column; /* Cards ko ek ke niche ek karne ke liye */
+        align-items: center;
+        padding: 20px 10px;
+        gap: 15px; /* Cards ke beech ka gap thoda kam kar diya */
+        position: relative;
+        top: 2rem;
+    }
+
+    .insurance-card {
+        width: 100%;
+        min-width: unset; /* Mobile par width constraints hata di */
+        max-width: 100%; 
+        padding: 20px; /* Padding thodi kam kar di mobile ke hisaab se */
+    }
+
+    .card-title h2 {
+        font-size: 1.2rem; /* Mobile par heading thodi choti */
+    }
+
+    .points-list li {
+        font-size: 0.95rem; /* Text size mobile ke liye optimize kiya */
+    }
+}
+/* mainconten 5finsh */
+
+/* main conten 6 start */
+.maincon6{
+    width: 100%;
+    height: auto;
+    
+}
+
+.mainconten6_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainconten6_1 h3{
+    color: #0f0f0f;
+}
+.mainconten6_1 p{
+    color: #97add2;
+}
+.mainconten6_2 button{
+    align-items: center;
+    border-radius: 2rem;
+}
+/* Button Initial State (Blue) */
+.btn-custom-blue {
+    background-color: #f6f6f6; /* Blue color */
+    color: #0056b3;
+    border: 2px solid #0056b3;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+/* Button Hover State (White background, Blue text) */
+.btn-custom-blue:hover {
+    background-color: #0056b3;
+    color: #f7f9fa;
+    
+    transform: translateY(-2px); /* Halki si lift */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+/* main content 6 styling finsh */
+/* maincontent 7 styling 7 start  */
+/* Custom styling for Testimonial Section */
+.maincontnet7_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding-top: 2rem;
+}
+.maincontnet7_1 h2{
+    color: #0f0f0f;
+}
+.maincontnet7_1  p{
+      color: #97add2;
+}
+
+.testimonial-card {
+     background-color: #ffffff;
+    border-radius: 1.5rem !important;
+    display: flex;
+    flex-direction: column;
+   box-shadow:  8px 8px 12px rgba(220, 217, 217, 0.1);
+}
+
+.quote-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #1a4d8c; /* Blue color */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Quote Icon fallback (agar icon library nahi hai) */
+.quote-icon::after {
+   
+    color: white;
+    font-size: 40px;
+    font-family: serif;
+    line-height: 0;
+    margin-top: 15px;
+}
+
+.stars {
+    letter-spacing: 2px;
+    font-size: 1.1rem;
+}
+
+/* Hover effect */
+.testimonial-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+
+
+.btn-custom-outline {
+    background-color: #ffffff;      /* Background White */
+    color: #1a4f8b;                /* Text Blue */
+    border: 2px solid #1a4f8b;     /* Border Blue */
+    padding: 10px 30px;
+    font-weight: 600;
+    border-radius: 30px;           /* Rounded pill shape */
+    text-decoration: none;         /* Anchor underline hatane ke liye */
+    display: inline-block;
+    transition: all 0.3s ease;     /* Smooth animation ke liye */
+}
+
+/* Hover Effect */
+.btn-custom-outline:hover {
+    background-color: #0d3562;     /* Hover par Dark Blue background */
+    color: #ffffff;                /* Hover par Text White */
+    border-color: #0d3562;         /* Hover par Border bhi Dark Blue */
+    transform: translateY(-2px);   /* Chota sa bounce effect */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+/* responsive ness */
+
+/* Media Query for 800px and below */
+@media screen and (max-width: 800px) {
+    
+    /* Header section padding kam karne ke liye */
+    .maincontnet7_1 {
+        padding: 1.5rem 15px;
+        text-align: center;
+    }
+
+    .maincontnet7_1 h2 {
+        font-size: 1.5rem;
+        position: relative;
+        top: 4rem; /* Choti screen par heading thodi choti */
+    }
+    .maincontnet7_1 p {
+        font-size: 1rem;
+        position: relative;
+        top: 4rem; /* Choti screen par heading thodi choti */
+    }
+
+    /* Cards container ko mobile stack mein badalne ke liye */
+    /* Note: Agar aapne Bootstrap use kiya hai toh row automatic handle karega, 
+       lekin extra spacing ke liye ye zaroori hai */
+    .maincontnet7_2 .row {
+        gap: 20px;
+    }
+
+    /* Individual Card adjustments */
+    .testimonial-card {
+        margin: 0 10px; /* Sides mein halki jagah */
+        padding: 1.5rem !important; /* Mobile par padding thodi kam */
+    }
+
+    /* Quote icon ko thoda chota karne ke liye */
+    .quote-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .quote-icon::after {
+        font-size: 30px;
+    }
+
+    /* Text size optimization */
+    .testimonial-card p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+    /* Button section spacing */
+    .maincontnet7_3 {
+        padding: 20px 10px;
+    }
+
+    .btn-custom-outline {
+        width: 90%; /* Mobile par button bada aur click karne mein aasaan */
+        padding: 12px 20px;
+        font-size: 0.95rem;
+    }
+}
+
+/* finish maincontent7 part */
+/* now start last part */
+.lastcontent{
+    width: 100%;
+    height: 1000px;
+    background-color: #004a99;
+    padding: 3rem;
+}
+.last_1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+/* Common Button Styling */
+.last_2 button {
+   
+    padding: 12px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid #1a4f8b; /* Blue border */
+    outline: none;
+    align-items: center;
+    position: relative;
+    top: 2rem;
+    left: 18rem;
+    
+}
+
+/* 1. White to Blue Button (last_2) */
+.btn-white-to-blue {
+    background-color: #ffffff;
+    color: #1a4f8b;
+}
+
+.btn-white-to-blue:hover {
+    background-color: #1a4f8b; /* Background blue ho jayega */
+    color: #ffffff;            /* Text white ho jayega */
+}
+
+/* 2. Blue Text on Hover Button (last_3) */
+.btn-text-blue-hover {
+    background-color: #ffffff;
+    color: #333;               /* Shuru mein dark grey text */
+    border-color: #cccccc;     /* Shuru mein light border */
+}
+
+.btn-text-blue-hover:hover {
+    color: #1a4f8b;            /* Hover par sirf text blue hoga */
+    border-color: #1a4f8b;     /* Border bhi blue ho jayega */
+    background-color: #ffffff; /* Background white hi rahega */
+}
+@media screen and (max-width: 800px) {
+    .last_container {
+        flex-direction: column; /* Mobile par buttons ek ke niche ek */
+        align-items: center;
+        gap: 15px;
+    }
+    .last_2 {
+    
+        
+        position: relative;
+        align-items: center;
+        right: 16rem;
+       
+    }
+
+    .last_2 button{
+         width: 85%;
+        
+         border: 1px solid  #1a4f8b;
+          margin-bottom: 1rem;
+       
+       
+        
+    }
+}
+
+
+
+/* finish */
+
+
+
+
+

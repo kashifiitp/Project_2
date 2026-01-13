@@ -1,0 +1,1336 @@
+
+
+
+
+*{
+   margin: 0;
+    padding: 0;
+   
+    
+    
+    font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+   
+}
+
+
+
+ 
+
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+   
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+ html, body {
+    overflow-x: hidden; /* Horizontal scroll khatam karne ke liye */
+    width: 100%;
+    scroll-behavior: smooth;
+}
+/* 1st Nav */
+
+.nav1{
+    width: 100%;
+    height: 3rem;
+    background-color: #063768;
+    display: flex;
+    justify-content:flex-end;
+    padding: 0rem 0.5rem 1.5rem 0rem;
+    text-align: center;
+    
+
+
+}
+.sidecontent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.sidecontent h6{
+    margin: 1rem 1rem 0rem 0rem;
+    color: #ffffff;
+    font-size: smaller;
+    font-weight: 450;
+    
+}
+.sidecontent button{
+   border-radius: 0.56rem;
+   width: 3.4rem;
+   border: none;
+   text-size-adjust: 0.3rem;
+   color:  #142C52;
+   padding: 0.3rem;
+   margin: 1.2rem 1rem 0rem 0rem;
+   font-size: 0.69rem;
+   font-weight: bold;
+   
+  
+}
+.sidecontent h6:hover{
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    padding: 12px;
+    z-index: 1;
+    border-radius: 8px;
+    top: 100%; 
+    right: 0;
+}
+
+/* Jab mouse 'Contact Us' par jaye, tab box dikhe */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* 1ST NAV CSS COMPLETE ADD SOME BOOTSTRAP AND START SECOND NAV CSS */
+.nav2{
+    width: 100%;
+    height: 5rem;
+    background-color: #ffffff;
+    border: 2px solid rgb(255, 251, 251);
+}
+.btn i{
+    font-size: 1.5rem;
+     border-radius: 0.2rem;
+}
+.menu :hover{
+    color: #ffffff;
+    background-color: rgb(225, 160, 18);
+    
+    
+}
+
+
+.my-hamburger {
+    display: none !important;
+}
+
+
+
+
+/* RESPONSIVENESS AND MENU STYLEING  */
+@media (max-width: 800px) {
+    .my-hamburger {
+        display: flex !important;
+        position: relative;
+        top: 1rem;
+    }
+}
+
+.cutomer{
+    margin-left: 1rem;
+    border-bottom: 0.0001rem solid rgb(231, 226, 226);
+}
+
+.list-unstyled h5{
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    color: #6784b3b4;
+}
+.pro{
+     border-bottom: 0.0001rem solid rgb(231, 226, 226);
+}
+.pro h6{
+    font-size: 0.8rem;
+    color: #506B95;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    
+}
+.k1{
+    margin-bottom: 1rem;
+}
+.py-2{
+    font-size: 0.9rem;
+    margin-left: 1rem;
+    font-weight: 500;
+    color: #21242C;
+}
+
+.orangebutton1 button{
+    background-color: #ffffff;
+    color: #0f0f0f;
+    font-size:1rem;
+    width: 13rem;
+    height: 2.9rem;
+    border-radius: 1rem;
+    border: none;
+}
+.orangebutton1 button:hover{
+    background-color: #ff9c39;
+    color: #ffffff;
+    font-size:1rem;
+    width: 13rem;
+    height: 2.9rem;
+    border-radius: 1rem;
+    border: none;
+}
+.orangebutton button{
+    background-color: #ff9c39;
+    color: #ffffff;
+    font-size:1rem;
+    width: 13rem;
+    height: 2.9rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+/* COMPLETE NAV2  AND START NAV 2 CONTENT STYLING */
+
+
+.nav3{
+    display: flex;
+    justify-content:space-between;
+    font-size: 0.5rem;
+    margin-top: 0.8rem;
+    margin-right: 0.7rem;
+}
+.navcon1 img{
+    padding-left: 0.9rem;
+    
+}
+
+
+.navcon2{
+    display: flex ;
+    justify-content: space-evenly ;
+    margin-right: 6rem;
+    
+    
+    
+}
+.navka h6{
+    
+    margin-top: 0.69rem;
+    font-size: 0.8rem;
+    color: #506B95;
+   position: relative;
+   top: 0.4rem;
+   left: 4rem;
+     
+}
+
+.div-goal  h5{
+    font-size: 0.8rem;
+    color: #506B95;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+     position: relative;
+   top: 0.4rem;
+   left: 2rem;
+   
+}
+
+.clims{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 2rem;
+    position: relative;
+     top: 0.4rem;
+     left: 2rem;
+     color:#14a249;
+}
+.clims h6{
+     margin-right: 2rem;
+     position: relative;
+     top: 0.4rem;
+     
+     
+}
+
+
+
+.navcon3 button{
+    background-color: #ff8000;
+    color: #ffffff;
+    font-size:0.8rem;
+    width: 7rem;
+    height: 2rem;
+    border-radius: 0.7rem;
+    margin-top: 0.4rem;
+    margin-right: 1rem;
+    border: none;
+}
+
+
+@media (max-width: 800px) {
+ 
+
+   
+    .navcon2 h5 {
+        display: none ;
+    }
+    .navcon3{
+        display: none;
+
+    }
+    .dropdown h5{
+        display: none;
+    }
+    .navka h6{
+   display: none;
+    } 
+   .clims{
+    display: none;
+    }
+    
+    .navcon1 img {
+        width: 150px; 
+        position: relative;
+        left: 9px; 
+        margin-top: 0.2rem;
+        bottom: 3rem;
+    }
+
+ 
+   
+}
+
+
+
+ 
+
+
+
+/* now comple styling of combine css  */
+
+/* new maincon start */
+
+/* maincon1 start  */
+.maincon1{
+    width: 100%;
+    height:300px;
+    background-color:#063768 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     padding-top: 4rem;
+     color: #ffffff;
+    
+}
+.conk2{
+    display: flex;
+    flex-direction: column;
+}
+.conk2 p{
+    height: 2%;
+    color: #fefefec1;
+    font-weight: 400;
+   
+    
+
+   
+}
+.conk2 h6{
+   
+    height: 2%;
+    font-weight: 400;
+    color: #fefefec1;
+    position: relative;
+    left: 4rem;
+    margin-top: 0.1rem;
+
+   
+     
+}
+.nav-marquee {
+    display: none; 
+    background-color: #f9fdf9; 
+    color: #28a745; 
+    padding: 1rem 0rem;
+    font-size: 14px;
+    font-weight: 500;
+    overflow: hidden;
+    white-space: nowrap;
+    border-bottom: 1px solid #d4edda;
+}
+
+/* responsiveness runing line */
+
+@media (max-width: 800px) {
+    .nav-marquee {
+        display: block; 
+        position: relative;
+        bottom: 3.99rem;
+        width: 100%;
+        
+    }
+
+    .marquee-content {
+        display: inline-block;
+        padding-left: 100%;
+        font-size: 1rem;
+        
+        animation: marquee-animation 15s linear infinite;
+    }
+}
+
+
+@keyframes marquee-animation {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+/* styling maincon1 */
+.conk1 h1{
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-weight: 900;
+   
+}
+.conk2{
+    display: flex;
+    flex-direction: column;
+}
+.conk2 p{
+    height: 2%;
+    color: #fefefec1;
+    font-weight: 400;
+   
+    
+
+   
+}
+.conk2 h6{
+   
+    height: 2%;
+    font-weight: 400;
+    color: #fefefec1;
+
+   
+     
+}
+
+/* finish */
+
+/* responsiveness maincon1 */
+@media (max-width: 800px) {
+   .maincon1{
+    width: 100%;
+    height:auto;
+    background-color:#345b9b ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     padding-top: 4rem;
+     color: #ffffff;
+    
+}
+
+
+    .conk1, .conk2, .conk3 {
+             text-align: center; 
+             position: relative;
+                bottom: 3rem;
+       }
+
+      .conk1 h1 {
+        font-size: 2rem; 
+        color: white;
+       margin-bottom: 25px;
+    }
+
+
+
+
+      .conk2 p, .conk2 h6 {
+
+          font-size: 1rem;
+         color: rgba(255, 255, 255, 0.9); 
+         line-height: 1;
+         margin-bottom: 1rem;
+         position: relative;
+         bottom: 1rem;
+          
+
+
+        }
+
+        .conk2 h5{
+
+           font-size: 1rem;
+          color: rgba(255, 255, 255, 0.9); 
+            line-height: 1;
+            position: relative;
+             right: 3.5rem;
+              bottom: 1.5rem;
+       }
+
+
+}
+/* finish */
+
+/* responisveness for mobile */
+@media (max-width: 450px) {
+    
+ 
+    .conk1, .conk2, .conk3 {
+             text-align: center; 
+             position: relative;
+                
+    }
+         .conk1 h1 {
+        font-size: 1.5rem; 
+        color: white;
+       margin-bottom: 25px;
+    }
+
+
+
+
+      .conk2 p, .conk2 h6 {
+
+          font-size: 0.8rem;
+         color: rgba(255, 255, 255, 0.9); 
+         line-height: 1.2;
+         margin-bottom: 0.6rem;
+         position: relative;
+         
+          
+
+
+        }
+
+        .conk2 h5{
+
+           font-size: 0.8rem;
+          color: rgba(255, 255, 255, 0.9); 
+            line-height: 1;
+            position: relative;
+             right: 3.5rem;
+             top: 0.1rem;
+              bottom: 0.5rem;
+       }
+
+
+
+    
+}
+/* main cont2  styling */
+
+/* Tab Button Styling */
+.nav-pills .nav-link {
+    background-color: #f8f9fa;
+    color: #506B95;
+    border: 1px solid #dee2e6;
+    font-weight: 500;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #0d6efd !important; /* Blue color when clicked */
+    color: white !important;
+    border-color: #0d6efd;
+}
+
+.story-card {
+    background: white;
+    border-radius: 12px;
+    height: 100%;
+    border: 1px solid #eee;
+}
+
+.story-card:hover {
+    border-color: #0d6efd;
+    transition: 0.3s;
+}
+
+/* Tab Button Styling */
+.nav-pills .nav-link {
+    background-color: #f8f9fa;
+    color: #506B95;
+    border: 1px solid #dee2e6;
+    font-weight: 500;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #0d6efd !important; /* Blue color when clicked */
+    color: white !important;
+    border-color: #0d6efd;
+}
+
+.story-card {
+    background: white;
+    border-radius: 12px;
+    height: 100%;
+    border: 1px solid #eee;
+}
+
+.story-card:hover {
+    border-color: #0d6efd;
+    transition: 0.3s;
+}
+
+/* Main Section Styling */
+.stats-section {
+    background-color: #0076be; /* Image wala blue color */
+    color: #ffffff;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.stats-container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.stats-title {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.stats-subtitle {
+    font-size: 18px;
+    max-width: 750px;
+    margin: 0 auto 40px auto;
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+/* Grid Layout for Boxes */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Box/Card Styling */
+.stat-box {
+    background-color: rgba(255, 255, 255, 0.15); /* Glass effect */
+    border-radius: 12px;
+    padding: 25px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.stat-value {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.stat-desc {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    .stats-title { font-size: 32px; }
+    .stats-grid { grid-template-columns: 1fr 1fr; } /* Mobile par 2 columns */
+}
+
+
+/* Story Section Styling */
+.story-section {
+    background-color: #ffffff; /* White background as per image */
+    padding: 80px 20px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.story-title {
+    font-size: 48px; /* Badi heading */
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.story-text {
+    font-size: 20px;
+    color: #55606b; /* Thoda greyish blue color */
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.stories-list-section {
+    background-color: #f8f9fa; /* Light grey/white bg */
+}
+
+.story-card-vertical {
+    background: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #e0e6ed;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.story-card-vertical:hover {
+    transform: scale(1.01); /* Halka sa zoom effect */
+}
+
+.card-story-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.location-text {
+    color: #28a745; /* Green color for sub-text */
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.story-detail {
+    color: #4a5568;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.quote-box {
+    border-left: 4px solid #28a745;
+    padding-left: 15px;
+    font-style: italic;
+    color: #666;
+    margin-top: 15px;
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+    .card-story-title { font-size: 20px; }
+}
+
+.dream-card {
+    background-color: #fcfdfe; /* Halka bluish-white shade */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.dream-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.dream-icon-wrapper {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+    background-color: #004494 !important;
+    transform: scale(1.05);
+    transition: all 0.2s;
+}
+
+.meet-people-section {
+    background-color: #0076be; /* Image wala primary blue color */
+    padding: 80px 20px;
+}
+
+.meet-people-section .btn-light {
+    color: #0076be !important; /* Button text match blue color */
+    border: none;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.meet-people-section .btn-light:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2) !important;
+}
+
+.meet-people-section h2 {
+    letter-spacing: -1px;
+}
+
+.opacity-90 {
+    opacity: 0.9;
+}
+/* second button card */
+
+.secontpara{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    left: 18rem;
+    margin-top: 1rem;
+}
+
+.block6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   max-width: 100%;
+}
+.block6 h1{
+    color: #000000;
+
+}
+.block6 p{
+    color: #4a5568;
+    
+}
+
+.block4{
+    width: 400px;
+    height: 100px;
+    background-color: #dcdfe6;
+    display: flex;
+    border-radius: 1rem;
+    padding-top: 0.6rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block4 h1{
+    color: #004494;
+}
+.block4 p{
+    color: #4a5568;
+}
+
+
+    .card {
+        border-radius: 15px;
+        transition: transform 0.3s ease;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+    }
+    .text-primary {
+        color: #0056b3 !important; /* Aap image ke hisaab se blue shade adjust kar sakte hain */
+    }
+
+/* --- Aapka Existing CSS (Thode badlav ke sath) --- */
+
+.secontpara {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* Default: Desktop par right side shift karne ke liye */
+    left: 18rem; 
+    margin-top: 1rem;
+}
+
+/* --- Media Query for Mobile/Tablets --- */
+
+@media (max-width: 992px) {
+    .secontpara {
+        /* Mobile par content center karne ke liye left reset karein */
+        left: 0 !important;
+        padding: 0 15px; /* Side spacing ke liye */
+    }
+    
+    .block4 {
+        /* Mobile par fix width problem kar sakti hai, ise auto ya 100% karein */
+        width: 100%;
+        max-width: 400px;
+        height: auto; /* Content ke hisaab se height adjust hogi */
+        padding-bottom: 1rem;
+    }
+}
+
+/* Baki ka CSS waisa hi rahega */
+.block6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+
+
+.sectcard2{
+      width: 100%;
+      height: auto;
+      background-color: #0056b3;
+}
+
+/* section card */
+.sectioncardb{
+    width: 100%;
+    align-items: center;
+}
+
+.sectioncardl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top:4rem;
+    left: 4rem;
+    width: 400px;
+}
+.sectioncardl h2{
+    font-weight: 900;
+}
+
+
+.sectioncardld{
+    display: flex;
+    justify-content: space-evenly;
+    width: 1100px;
+    height: 400px;
+    position: relative;
+    right: 2rem;
+   
+   
+
+}
+
+.cardld{
+    width: 200px;
+    height: 240px;
+    border:2px solid  #edf1ef;
+    padding: 1rem;
+    margin-top:0rem , 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow:  4px 4px 20px rgba(0, 0, 0, 0.05);
+    position: relative;
+    right: 1rem;
+    top: 7rem;
+   
+    
+}
+
+.cardld1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+.cardld1 p{
+    font-size: small;
+    margin-top: 1.5rem;
+}
+.cardld1 h6{
+    margin-top: 1rem;
+}
+/* 900px ke baad sab normal aur fit karne ke liye */
+@media (max-width: 900px) {
+    
+    /* 1. Main Container reset */
+    .sectioncardl {
+        position: static ; /* left/right ka asar khatam */
+        width: 100% !important;
+        left: 0 !important;
+        margin: 0 auto !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* 2. Cards wala area reset */
+    .sectioncardld {
+        position: static !important;
+        width: 100% !important;
+        height: auto !important; /* Fixed height 400px hatayi */
+        right: 0 !important;
+        display: flex;
+        flex-direction: column; /* Cards row ki jagah column mein */
+        align-items: center;
+        gap: 20px; /* Cards ke beech gap */
+        margin-top: 2rem !important;
+    }
+
+    /* 3. Individual Card reset */
+    .cardld {
+        position: static !important;
+        width: 90% !important; /* Mobile par width fit */
+        max-width: 350px;
+        top: 0 !important;
+        right: 0 !important;
+        margin: 10px 0 !important;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Sahi dikhne ke liye shadow */
+    }
+
+    /* 4. Text centering */
+    .cardld1 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .sectioncardl h2 {
+        font-size: 1.8rem; /* Chhoti screen par heading adjust */
+    }
+}
+
+
+
+
+
+/* feedback */
+
+ /* Image se milta-julta custom styling */
+        .feedback-bg {
+            background-color: #1a73e8; /* Blue background */
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .highlight-box {
+            background-color: rgba(255, 255, 255, 0.15); /* Transparent white box */
+            border-radius: 12px;
+            padding: 30px;
+            max-width: 500px;
+            margin: 40px auto 0;
+        }
+
+        .counter-number {
+            font-size: 4rem;
+            font-weight: 700;
+            line-height: 1;
+        }
+
+        .counter-text {
+            font-size: 1.1rem;
+            font-weight: 400;
+            margin-top: 10px;
+        }
+
+        .process-section {
+       
+        padding: 80px 0;
+        text-align: center;
+    }
+    .process-card {
+        background: white;
+        border: none;
+        border-radius: 15px;
+        padding: 40px 20px;
+        height: 100%;
+        transition: transform 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    }
+    .process-card:hover {
+        transform: translateY(-10px);
+    }
+    .icon-box {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    /* Image colors matching */
+    .icon-blue { color: #0d6efd; }
+    .icon-green-warn { color: #198754; }
+    .icon-check-blue { color: #0dcaf0; }
+    .icon-thumbs-green { color: #198754; }
+    
+    .card-title {
+        font-weight: 700;
+        font-size: 1.25rem;
+        margin-bottom: 15px;
+    }
+    .card-text {
+        color: #6c757d;
+        font-size: 0.95rem;
+    }
+
+
+       body { background-color: #f1f4f8; font-family: 'Segoe UI', sans-serif; }
+    
+    .main-heading { font-weight: 800; color: #1a202c; }
+    .sub-text { color: #718096; font-size: 1.1rem; }
+
+    .problem-card {
+        background: white;
+        border: none;
+        border-radius: 12px;
+        padding: 25px;
+        height: 100%;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .problem-title {
+        color: #c53030; /* Reddish color for Problem text */
+        font-weight: 700;
+        font-size: 1.1rem;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .meta-info { font-size: 0.85rem; color: #a0aec0; margin-bottom: 15px; }
+
+    .quote-text {
+        font-style: italic;
+        color: #4a5568;
+        font-size: 0.95rem;
+        border-left: 3px solid #e2e8f0;
+        padding-left: 15px;
+        margin-bottom: 20px;
+    }
+
+    .action-title { font-weight: 700; color: #2d3748; font-size: 1rem; margin-bottom: 10px; }
+
+    .check-list { list-style: none; padding: 0; }
+    .check-list li {
+        font-size: 0.9rem;
+        color: #4a5568;
+        margin-bottom: 8px;
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .check-list i { color: #38a169; } /* Green check */
+
+    .impact-box {
+        background-color: #f0fff4; /* Light green box */
+        border-radius: 8px;
+        padding: 15px;
+        border-left: 4px solid #38a169;
+    }
+
+  .feedbacktext{
+    width: 800px;
+    height: 200px;
+    align-items: center;
+    position: relative;
+    left: 6rem;
+  }
+  .feedbacktext p{
+    color: #abbbcb;
+    position: relative;
+    left: 10rem;
+  }
+
+
+
+  /* Feedback Section Styles */
+.feedback-section {
+    background-color: #fcfcfc;
+}
+
+.feedback-section .card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.feedback-section .card:hover {
+    transform: translateY(-2px);
+}
+
+.feedback-section .text-info-emphasis {
+    color: #0dcaf0;
+    opacity: 0.8;
+}
+
+.feedback-section .badge {
+    letter-spacing: 0.5px;
+    background-color: #f0f7ff !important; /* Soft blue background for badges */
+}
+
+/* Specific green color for action text */
+.feedback-section .text-success {
+    color: #28a745 !important;
+}
+
+/* Font weight adjustment for feedback text */
+.feedback-section p.text-secondary {
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+
+.feedback-cta-section {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.feedback-cta-section .container {
+    padding: 50px 20px;
+}
+
+/* List styling */
+.feedback-cta-section ul li {
+    font-size: 0.95rem;
+    opacity: 0.9;
+    padding-left: 10px;
+}
+
+/* Button hover effect */
+.feedback-cta-section .btn-light:hover {
+    background-color: #f8f9fa;
+    color: #0056b3 !important;
+}
+
+/* Responsiveness for list border */
+@media (max-width: 768px) {
+    .feedback-cta-section .border-start {
+        border-left: none !important;
+    }
+}
+/* blogs  */
+/* Section Background and Text Color */
+.hero-section {
+    background-color: #004494; /* Aapka specific blue color */
+    color: #ffffff;
+    padding: 100px 0; /* Upar aur niche ka gap */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading Styling */
+.hero-section h1 {
+    letter-spacing: -1px;
+}
+
+/* Tagline Styling */
+.hero-section .lead {
+    font-size: 1.5rem;
+    opacity: 0.95;
+}
+
+/* Sub-text Styling */
+.hero-section .sub-text {
+    max-width: 700px;
+    font-size: 1.15rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 60px 20px;
+    }
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Section Styling */
+.blog-cards-section {
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+/* Card Container */
+.blog-card {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+/* Badge (Listicle/Guide) */
+.badge-custom {
+    font-size: 0.8rem;
+    color: #6c757d;
+    font-weight: 500;
+}
+
+/* Title Styling */
+.card-title {
+    font-size: 1.4rem;
+    color: #2c3e50;
+    margin: 15px 0;
+    line-height: 1.4;
+}
+
+/* Description */
+.card-desc {
+    color: #6c757d;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* Footer & Meta Info */
+.meta-info {
+    font-size: 0.85rem;
+    color: #adb5bd;
+}
+
+.read-more {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.icon-blue {
+    color: #007bff;
+    font-size: 1.2rem;
+}
+
+/* Card Box Styling */
+.blog-card {
+    background: #ffffff;
+    border: 1px solid #e9ecef;
+    border-radius: 16px; /* Soft corners */
+    padding: 30px;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Hover Effect */
+.blog-card:hover {
+    border-color: #007bff;
+    box-shadow: 0 10px 30px rgba(0, 123, 255, 0.1);
+}
+
+/* Badge Styling */
+.badge-text {
+    font-size: 0.85rem;
+    color: #6c757d;
+    font-weight: 500;
+}
+
+/* Title Styling */
+.card-title {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin: 15px 0;
+    line-height: 1.4;
+}
+
+/* Description Styling */
+.card-desc {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* Icon Color */
+.icon-blue {
+    color: #007bff;
+    font-size: 1.4rem;
+}
+
+/* Link Styling */
+.read-more {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
